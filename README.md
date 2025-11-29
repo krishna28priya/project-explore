@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Project Explore - Student Learning Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A complete React-based web application designed to help students discover and learn how to build projects across various technology domains.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Beautiful Modern Landing Page** with animated sections using Framer Motion
+- **Explore Page** showing all domains as cards with search and filter functionality
+- **Project Details Page** with comprehensive information about each project
+- Fully responsive UI built with Tailwind CSS
+- Dynamic data from local JSON file
+- Smooth animations and transitions
 
-### `npm start`
+## Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React + Vite
+- Tailwind CSS
+- React Router
+- Framer Motion for animations
+- Axios for data fetching
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+```
+src/
+├── components/     # Reusable UI components
+├── data/           # Project data in JSON format
+├── pages/          # Page components
+├── assets/         # Images and other static assets
+├── App.jsx         # Main App component
+├── main.jsx        # Entry point
+├── index.css       # Global styles
+└── App.css         # App-specific styles
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Available Domains
 
-### `npm run build`
+1. AI/ML
+2. Web Development
+3. App Development
+4. IoT
+5. Cyber Security
+6. Cloud Computing
+7. Blockchain
+8. Data Science
+9. AR/VR
+10. Game Development
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Install dependencies:
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Start the development server:
+   ```
+   npm run dev
+   ```
 
-### `npm run eject`
+3. Open your browser to http://localhost:5173
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Build for Production
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Details
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Each project includes:
+- Project Name
+- Description of what it is
+- Why it's useful
+- Key features
+- Technologies used
+- Step-by-step building instructions
+- Domain basics
+- Required skills
+- Tech stack
 
-## Learn More
+## Responsive Design
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application is fully responsive and works on all device sizes:
+- Mobile phones
+- Tablets
+- Desktop computers

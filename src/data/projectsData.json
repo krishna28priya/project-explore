@@ -1,0 +1,1862 @@
+{
+  "domains": [
+    {
+      "id": 1,
+      "name": "AI/ML",
+      "description": "Artificial Intelligence and Machine Learning",
+      "icon": "🤖",
+      "projects": [
+        {
+          "id": 101,
+          "name": "Image Classification Model",
+          "description": "A model that can classify images into different categories",
+          "whyUseful": "Helps automate image sorting and recognition tasks",
+          "features": ["High accuracy", "Fast processing", "Multiple category support"],
+          "technologies": ["Python", "TensorFlow", "Keras"],
+          "steps": [
+            "Collect and preprocess image dataset",
+            "Design neural network architecture",
+            "Train the model with labeled data",
+            "Evaluate model performance",
+            "Deploy model for inference"
+          ],
+          "domainBasics": "Machine learning is a subset of artificial intelligence that enables computers to learn and make decisions from data without being explicitly programmed.",
+          "requiredSkills": ["Python programming", "Basic mathematics", "Statistics"],
+          "techStack": ["Python", "TensorFlow", "Keras", "NumPy", "Matplotlib"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 102,
+          "name": "Chatbot Assistant",
+          "description": "An AI-powered chatbot that can answer user queries",
+          "whyUseful": "Provides 24/7 customer support and automation",
+          "features": ["Natural language processing", "Context awareness", "Multi-platform support"],
+          "technologies": ["Python", "NLTK", "Dialogflow"],
+          "steps": [
+            "Define chatbot scope and intents",
+            "Create training dataset",
+            "Implement NLP algorithms",
+            "Train the model",
+            "Integrate with messaging platforms"
+          ],
+          "domainBasics": "Natural Language Processing (NLP) is a branch of AI that helps computers understand, interpret and generate human language.",
+          "requiredSkills": ["Python programming", "Basic linguistics", "Problem-solving"],
+          "techStack": ["Python", "NLTK", "Flask", "Dialogflow"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 103,
+          "name": "Sentiment Analysis Tool",
+          "description": "Analyze emotions and opinions in text data",
+          "whyUseful": "Helps businesses understand customer feedback and social media sentiment",
+          "features": ["Real-time analysis", "Multi-language support", "Visualization dashboard", "API integration"],
+          "technologies": ["Python", "Scikit-learn", "Pandas", "Flask"],
+          "steps": [
+            "Collect and clean text data",
+            "Preprocess text (tokenization, stemming)",
+            "Train sentiment classification model",
+            "Build web API for predictions",
+            "Create visualization dashboard",
+            "Deploy to cloud platform"
+          ],
+          "domainBasics": "Sentiment analysis uses natural language processing to identify and extract subjective information from text.",
+          "requiredSkills": ["Python", "Machine learning", "Text processing", "Web development"],
+          "techStack": ["Python", "Scikit-learn", "Pandas", "Flask", "Plotly"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 104,
+          "name": "Recommendation Engine",
+          "description": "Personalized recommendation system for e-commerce",
+          "whyUseful": "Increases user engagement and sales by suggesting relevant products",
+          "features": ["Collaborative filtering", "Content-based filtering", "Real-time recommendations", "A/B testing"],
+          "technologies": ["Python", "TensorFlow", "Spark", "Redis"],
+          "steps": [
+            "Collect user interaction data",
+            "Implement collaborative filtering algorithm",
+            "Build content-based recommendation model",
+            "Combine recommendation strategies",
+            "Create real-time serving system",
+            "Evaluate recommendation quality"
+          ],
+          "domainBasics": "Recommendation systems predict user preferences by analyzing past behavior and item characteristics.",
+          "requiredSkills": ["Machine learning", "Data analysis", "Distributed computing", "System design"],
+          "techStack": ["Python", "TensorFlow", "Apache Spark", "Redis", "Flask"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 105,
+          "name": "Autonomous Vehicle Perception System",
+          "description": "Real-time object detection and tracking for self-driving cars",
+          "whyUseful": "Enables safe navigation and decision-making for autonomous vehicles",
+          "features": ["Real-time object detection", "Multi-sensor fusion", "Path prediction", "Edge deployment"],
+          "technologies": ["Python", "PyTorch", "OpenCV", "ROS"],
+          "steps": [
+            "Collect and annotate driving dataset",
+            "Design CNN architecture for object detection",
+            "Train model on GPU cluster",
+            "Optimize for real-time inference",
+            "Integrate with vehicle control system",
+            "Test in simulation environment"
+          ],
+          "domainBasics": "Autonomous vehicle perception combines computer vision, deep learning, and sensor fusion to understand the driving environment.",
+          "requiredSkills": ["Deep learning", "Computer vision", "Robotics", "High-performance computing"],
+          "techStack": ["Python", "PyTorch", "OpenCV", "ROS", "CUDA"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 106,
+          "name": "Generative Adversarial Network Art Generator",
+          "description": "AI system that creates unique artwork in various styles",
+          "whyUseful": "Enables artists to explore new creative possibilities and generate unique designs",
+          "features": ["Style transfer", "High-resolution output", "Multiple art styles", "Interactive interface"],
+          "technologies": ["Python", "TensorFlow", "GANs", "Streamlit"],
+          "steps": [
+            "Collect art dataset by style",
+            "Implement StyleGAN architecture",
+            "Train generator and discriminator networks",
+            "Fine-tune for specific art styles",
+            "Create user interface for generation",
+            "Optimize for creative control"
+          ],
+          "domainBasics": "Generative Adversarial Networks consist of two neural networks that compete to generate new data similar to the training set.",
+          "requiredSkills": ["Deep learning", "Creative coding", "Mathematics", "GPU programming"],
+          "techStack": ["Python", "TensorFlow", "StyleGAN", "Streamlit", "CUDA"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 107,
+          "name": "Medical Image Diagnosis System",
+          "description": "AI-powered system for detecting diseases from medical scans",
+          "whyUseful": "Assists doctors in early disease detection and improves diagnostic accuracy",
+          "features": ["Multi-modal imaging", "Disease classification", "Uncertainty quantification", "Clinical integration"],
+          "technologies": ["Python", "PyTorch", "DICOM", "MONAI"],
+          "steps": [
+            "Collect and anonymize medical datasets",
+            "Preprocess medical images",
+            "Design specialized neural networks",
+            "Train with medical expert supervision",
+            "Validate with clinical trials",
+            "Deploy in healthcare settings"
+          ],
+          "domainBasics": "Medical AI requires specialized architectures and rigorous validation for clinical use.",
+          "requiredSkills": ["Deep learning", "Medical imaging", "Regulatory compliance", "Clinical workflow"],
+          "techStack": ["Python", "PyTorch", "DICOM", "MONAI", "HIPAA"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 108,
+          "name": "Natural Language to Code Generator",
+          "description": "System that converts natural language descriptions to executable code",
+          "whyUseful": "Accelerates software development by bridging communication between stakeholders and developers",
+          "features": ["Multi-language support", "Code explanation", "Error correction", "IDE integration"],
+          "technologies": ["Python", "Transformers", "Abstract Syntax Trees", "VS Code API"],
+          "steps": [
+            "Collect natural language-code pairs",
+            "Fine-tune large language models",
+            "Implement code parsing and generation",
+            "Add syntax and semantic validation",
+            "Create IDE plugin",
+            "Test with real developers"
+          ],
+          "domainBasics": "Code generation requires understanding both natural language semantics and programming language syntax.",
+          "requiredSkills": ["NLP", "Programming languages", "Compiler design", "LLMs"],
+          "techStack": ["Python", "Transformers", "Tree-sitter", "VS Code"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 109,
+          "name": "AI-Powered Game NPC",
+          "description": "Intelligent non-player characters with adaptive behavior and learning capabilities",
+          "whyUseful": "Creates more engaging and realistic gaming experiences with dynamic storytelling",
+          "features": ["Behavioral learning", "Emotional modeling", "Dialogue generation", "Player adaptation"],
+          "technologies": ["Python", "Reinforcement Learning", "Unity ML-Agents", "Transformers"],
+          "steps": [
+            "Design NPC personality framework",
+            "Implement reinforcement learning agents",
+            "Create dialogue and behavior systems",
+            "Train with player interaction data",
+            "Optimize for real-time performance",
+            "Integrate with game engine"
+          ],
+          "domainBasics": "Game AI requires balancing computational efficiency with believable behavior.",
+          "requiredSkills": ["Reinforcement learning", "Game development", "Behavioral modeling", "Real-time systems"],
+          "techStack": ["Python", "Unity", "ML-Agents", "PyTorch"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 110,
+          "name": "Climate Change Prediction Model",
+          "description": "Machine learning system for predicting climate patterns and environmental changes",
+          "whyUseful": "Supports policy-making and resource planning for climate adaptation strategies",
+          "features": ["Multi-variable forecasting", "Uncertainty quantification", "Visualization dashboard", "Policy recommendations"],
+          "technologies": ["Python", "XGBoost", "Climate Data APIs", "D3.js"],
+          "steps": [
+            "Collect historical climate data",
+            "Process satellite and sensor data",
+            "Design ensemble prediction models",
+            "Validate with historical events",
+            "Create interactive visualizations",
+            "Generate policy insights"
+          ],
+          "domainBasics": "Climate modeling requires handling large, complex datasets with long-term temporal dependencies.",
+          "requiredSkills": ["Time series analysis", "Environmental science", "Data visualization", "Statistics"],
+          "techStack": ["Python", "XGBoost", "NetCDF", "D3.js"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 111,
+          "name": "AI-Powered Drug Discovery Platform",
+          "description": "Machine learning system for accelerating pharmaceutical research and development",
+          "whyUseful": "Reduces time and cost of drug development while increasing success rates",
+          "features": ["Molecular modeling", "Drug interaction prediction", "Clinical trial optimization", "Regulatory compliance"],
+          "technologies": ["Python", "PyTorch", "Molecular Dynamics", "GROMACS"],
+          "steps": [
+            "Collect molecular data",
+            "Implement drug interaction models",
+            "Design virtual screening system",
+            "Create clinical trial simulator",
+            "Ensure regulatory compliance",
+            "Validate with pharmaceutical data"
+          ],
+          "domainBasics": "Drug discovery AI requires understanding of chemistry, biology, and regulatory requirements.",
+          "requiredSkills": ["Computational chemistry", "Machine learning", "Bioinformatics", "Regulatory affairs"],
+          "techStack": ["Python", "PyTorch", "RDKit", "GROMACS"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 112,
+          "name": "Autonomous Drone Swarm Intelligence",
+          "description": "Coordinated swarm of drones with collective decision-making capabilities",
+          "whyUseful": "Enables complex missions requiring multiple coordinated aerial vehicles",
+          "features": ["Swarm coordination", "Collective decision-making", "Adaptive mission planning", "Self-healing networks"],
+          "technologies": ["Python", "ROS2", "Swarm Algorithms", "Computer Vision"],
+          "steps": [
+            "Design swarm communication protocols",
+            "Implement collective decision algorithms",
+            "Create mission planning system",
+            "Add self-healing capabilities",
+            "Test coordination algorithms",
+            "Validate in real environments"
+          ],
+          "domainBasics": "Swarm intelligence requires distributed algorithms for collective behavior.",
+          "requiredSkills": ["Robotics", "Distributed systems", "Control theory", "Swarm algorithms"],
+          "techStack": ["Python", "ROS2", "SwarmLib", "OpenCV"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Web Development",
+      "description": "Building websites and web applications",
+      "icon": "🌐",
+      "projects": [
+        {
+          "id": 201,
+          "name": "Personal Portfolio Website",
+          "description": "A responsive portfolio website to showcase skills and projects",
+          "whyUseful": "Essential for developers to showcase their work to potential employers",
+          "features": ["Responsive design", "Project gallery", "Contact form", "SEO optimized"],
+          "technologies": ["HTML", "CSS", "JavaScript"],
+          "steps": [
+            "Plan website structure and layout",
+            "Create HTML structure",
+            "Style with CSS and responsive design",
+            "Add interactivity with JavaScript",
+            "Test on different devices",
+            "Deploy to hosting platform"
+          ],
+          "domainBasics": "Web development involves creating websites and web applications that run on the internet or an intranet.",
+          "requiredSkills": ["HTML/CSS", "Basic JavaScript", "UI/UX design"],
+          "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 202,
+          "name": "Restaurant Website",
+          "description": "A complete website for a restaurant with menu and online ordering",
+          "whyUseful": "Helps restaurants establish online presence and accept orders",
+          "features": ["Online menu", "Reservation system", "Order placement", "Admin panel"],
+          "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
+          "steps": [
+            "Design website wireframes",
+            "Create frontend templates",
+            "Set up backend with PHP",
+            "Implement database for menu items",
+            "Add reservation and ordering system",
+            "Test and optimize performance"
+          ],
+          "domainBasics": "Full-stack web development combines frontend (client-side) and backend (server-side) technologies.",
+          "requiredSkills": ["HTML/CSS", "JavaScript", "Server-side programming", "Database management"],
+          "techStack": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 203,
+          "name": "E-commerce Website",
+          "description": "A full-featured online shopping platform",
+          "whyUseful": "Enables businesses to sell products online",
+          "features": ["Product catalog", "Shopping cart", "Payment integration", "User accounts"],
+          "technologies": ["React", "Node.js", "MongoDB"],
+          "steps": [
+            "Design database schema",
+            "Set up backend API",
+            "Create frontend components",
+            "Implement authentication",
+            "Add payment processing",
+            "Test and deploy"
+          ],
+          "domainBasics": "Modern web applications use component-based architectures and RESTful APIs for communication.",
+          "requiredSkills": ["React", "Node.js", "Database design", "REST APIs"],
+          "techStack": ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 204,
+          "name": "Social Media Dashboard",
+          "description": "Analytics dashboard for social media management",
+          "whyUseful": "Helps businesses track and manage their social media performance",
+          "features": ["Multi-platform integration", "Analytics visualization", "Content scheduling", "Team collaboration"],
+          "technologies": ["React", "D3.js", "Node.js", "PostgreSQL"],
+          "steps": [
+            "Design dashboard UI/UX",
+            "Integrate with social media APIs",
+            "Implement data visualization components",
+            "Build content scheduling system",
+            "Add team collaboration features",
+            "Optimize for performance"
+          ],
+          "domainBasics": "Single Page Applications (SPAs) provide a smooth user experience by dynamically updating content.",
+          "requiredSkills": ["React", "Data visualization", "API integration", "State management"],
+          "techStack": ["React", "Redux", "D3.js", "Node.js", "PostgreSQL"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 205,
+          "name": "Real-time Collaboration Platform",
+          "description": "Google Docs-like real-time collaborative document editor",
+          "whyUseful": "Enables teams to collaborate on documents in real-time from anywhere",
+          "features": ["Real-time editing", "Conflict resolution", "Version history", "Access controls"],
+          "technologies": ["React", "WebSocket", "Node.js", "Redis"],
+          "steps": [
+            "Design collaborative editing architecture",
+            "Implement Operational Transformation algorithm",
+            "Set up WebSocket connections",
+            "Build conflict resolution system",
+            "Add version history and rollback",
+            "Implement access control and permissions"
+          ],
+          "domainBasics": "Real-time web applications use WebSockets for bidirectional communication between client and server.",
+          "requiredSkills": ["WebSocket", "Concurrency", "Distributed systems", "Algorithm design"],
+          "techStack": ["React", "WebSocket", "Node.js", "Redis", "MongoDB"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 206,
+          "name": "Microservices Architecture",
+          "description": "Scalable microservices for a large-scale application",
+          "whyUseful": "Allows organizations to develop, deploy, and scale services independently",
+          "features": ["Service discovery", "Load balancing", "Monitoring", "Fault tolerance"],
+          "technologies": ["Docker", "Kubernetes", "Node.js", "gRPC"],
+          "steps": [
+            "Design microservice boundaries",
+            "Containerize services with Docker",
+            "Set up Kubernetes orchestration",
+            "Implement service communication with gRPC",
+            "Add monitoring and logging",
+            "Configure CI/CD pipeline"
+          ],
+          "domainBasics": "Microservices architecture divides an application into small, independent services that communicate through APIs.",
+          "requiredSkills": ["Docker", "Kubernetes", "System design", "DevOps"],
+          "techStack": ["Docker", "Kubernetes", "Node.js", "gRPC", "Prometheus"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 207,
+          "name": "Progressive Web App for E-commerce",
+          "description": "Offline-capable e-commerce platform with native app features",
+          "whyUseful": "Provides app-like experience with web technologies while working offline",
+          "features": ["Offline functionality", "Push notifications", "Add to home screen", "Fast loading"],
+          "technologies": ["React", "Service Workers", "IndexedDB", "Web Push API"],
+          "steps": [
+            "Design PWA architecture",
+            "Implement service workers for caching",
+            "Add offline data synchronization",
+            "Create installable experience",
+            "Optimize for performance",
+            "Test on multiple devices"
+          ],
+          "domainBasics": "Progressive Web Apps combine web and native app features for enhanced user experience.",
+          "requiredSkills": ["Web APIs", "Performance optimization", "Mobile UX", "Caching strategies"],
+          "techStack": ["React", "Workbox", "IndexedDB", "Lighthouse"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 208,
+          "name": "GraphQL API Platform",
+          "description": "Flexible API with GraphQL for efficient data fetching",
+          "whyUseful": "Reduces over-fetching and under-fetching issues with traditional REST APIs",
+          "features": ["Schema definition", "Real-time subscriptions", "Data federation", "Performance monitoring"],
+          "technologies": ["Node.js", "GraphQL", "Apollo Server", "Prisma"],
+          "steps": [
+            "Design GraphQL schema",
+            "Implement resolvers and data sources",
+            "Add authentication and authorization",
+            "Optimize with caching and batching",
+            "Set up real-time subscriptions",
+            "Monitor performance and errors"
+          ],
+          "domainBasics": "GraphQL provides a more efficient and flexible alternative to REST for API development.",
+          "requiredSkills": ["API design", "Database optimization", "Caching", "Real-time systems"],
+          "techStack": ["Node.js", "GraphQL", "Apollo", "Prisma"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 209,
+          "name": "Serverless Web Application",
+          "description": "Fully serverless architecture with cloud functions and managed services",
+          "whyUseful": "Eliminates server management overhead while providing automatic scaling",
+          "features": ["Auto-scaling", "Pay-per-use", "Event-driven", "Zero maintenance"],
+          "technologies": ["AWS Lambda", "API Gateway", "DynamoDB", "S3"],
+          "steps": [
+            "Design serverless architecture",
+            "Implement cloud functions",
+            "Set up managed databases",
+            "Configure event triggers",
+            "Add monitoring and logging",
+            "Optimize for cost and performance"
+          ],
+          "domainBasics": "Serverless computing abstracts infrastructure management for faster development.",
+          "requiredSkills": ["Cloud platforms", "Event-driven design", "Cost optimization", "Security"],
+          "techStack": ["AWS", "Lambda", "DynamoDB", "CloudFront"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 210,
+          "name": "WebAssembly Performance-Critical App",
+          "description": "High-performance web application using WebAssembly for computation-intensive tasks",
+          "whyUseful": "Enables near-native performance for web applications with complex computations",
+          "features": ["Near-native speed", "Language interoperability", "Memory safety", "Browser compatibility"],
+          "technologies": ["Rust", "WebAssembly", "WebGL", "JavaScript"],
+          "steps": [
+            "Identify performance-critical components",
+            "Implement core logic in Rust",
+            "Compile to WebAssembly",
+            "Integrate with web frontend",
+            "Optimize memory management",
+            "Test cross-browser compatibility"
+          ],
+          "domainBasics": "WebAssembly enables high-performance code execution in web browsers.",
+          "requiredSkills": ["Systems programming", "Performance optimization", "Memory management", "Web APIs"],
+          "techStack": ["Rust", "WebAssembly", "Webpack", "WebGL"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 211,
+          "name": "Real-time Collaborative Code Editor",
+          "description": "Multi-user code editor with real-time collaboration and intelligent features",
+          "whyUseful": "Enables distributed development teams to work together seamlessly on code",
+          "features": ["Real-time editing", "Intelligent autocomplete", "Code review", "Version control integration"],
+          "technologies": ["React", "WebSocket", "Language Server Protocol", "Monaco Editor"],
+          "steps": [
+            "Design collaborative editing architecture",
+            "Implement real-time synchronization",
+            "Integrate language servers",
+            "Add code review features",
+            "Connect to version control",
+            "Optimize for large files"
+          ],
+          "domainBasics": "Collaborative development tools require handling concurrent edits and language intelligence.",
+          "requiredSkills": ["Real-time systems", "Language parsing", "Code analysis", "Collaboration"],
+          "techStack": ["React", "WebSocket", "LSP", "Monaco"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 212,
+          "name": "AI-Powered Website Optimizer",
+          "description": "Intelligent system that automatically optimizes websites for performance and user experience",
+          "whyUseful": "Improves website performance and user engagement through automated optimization",
+          "features": ["Performance analysis", "A/B testing", "Content optimization", "Personalization"],
+          "technologies": ["Node.js", "Machine Learning", "Lighthouse", "Headless Chrome"],
+          "steps": [
+            "Analyze website performance",
+            "Implement optimization algorithms",
+            "Create A/B testing framework",
+            "Add personalization engine",
+            "Integrate with CDNs",
+            "Monitor improvements"
+          ],
+          "domainBasics": "Website optimization requires balancing technical performance with user experience.",
+          "requiredSkills": ["Performance optimization", "Machine learning", "User experience", "Analytics"],
+          "techStack": ["Node.js", "TensorFlow.js", "Lighthouse", "Puppeteer"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "App Development",
+      "description": "Creating mobile applications for iOS and Android",
+      "icon": "📱",
+      "projects": [
+        {
+          "id": 301,
+          "name": "To-Do List App",
+          "description": "A simple task management application with reminder features",
+          "whyUseful": "Helps users organize daily tasks and improve productivity",
+          "features": ["Task creation", "Due dates", "Categories", "Local storage"],
+          "technologies": ["React Native", "AsyncStorage"],
+          "steps": [
+            "Set up React Native environment",
+            "Design app screens and navigation",
+            "Implement task creation and editing",
+            "Add local data persistence",
+            "Test on iOS and Android simulators",
+            "Package for app stores"
+          ],
+          "domainBasics": "Mobile app development involves creating software applications that run on mobile devices like smartphones and tablets.",
+          "requiredSkills": ["JavaScript", "React basics", "UI/UX design"],
+          "techStack": ["React Native", "Expo", "AsyncStorage"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 302,
+          "name": "Weather Forecast App",
+          "description": "An app that displays current weather and forecasts",
+          "whyUseful": "Provides users with essential weather information for planning",
+          "features": ["Current conditions", "5-day forecast", "Location detection", "Custom locations"],
+          "technologies": ["React Native", "API Integration"],
+          "steps": [
+            "Design app UI with weather components",
+            "Integrate with weather API",
+            "Implement location services",
+            "Add data caching for offline use",
+            "Create settings for units/preferences",
+            "Optimize for battery usage"
+          ],
+          "domainBasics": "Mobile apps often integrate with external APIs to provide dynamic data and enhanced functionality.",
+          "requiredSkills": ["React Native", "API consumption", "Geolocation"],
+          "techStack": ["React Native", "OpenWeatherMap API", "Geolocation"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 303,
+          "name": "Social Media Feed App",
+          "description": "Instagram-like app with photo sharing and social features",
+          "whyUseful": "Connects users through shared content and social interactions",
+          "features": ["Photo upload", "Likes/comments", "User profiles", "Real-time notifications"],
+          "technologies": ["React Native", "Firebase", "Cloud Storage"],
+          "steps": [
+            "Design social media UI components",
+            "Set up Firebase authentication",
+            "Implement photo upload and storage",
+            "Build feed and profile screens",
+            "Add real-time notifications",
+            "Implement social features (follow, like, comment)"
+          ],
+          "domainBasics": "Mobile apps with social features require real-time data synchronization and cloud infrastructure.",
+          "requiredSkills": ["React Native", "Firebase", "Cloud storage", "Real-time data"],
+          "techStack": ["React Native", "Firebase", "Cloud Firestore", "Firebase Storage"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 304,
+          "name": "Fitness Tracker App",
+          "description": "Comprehensive fitness tracking with workout plans and progress analytics",
+          "whyUseful": "Helps users achieve fitness goals through tracking and motivation",
+          "features": ["Workout tracking", "Progress analytics", "Goal setting", "Health data integration"],
+          "technologies": ["React Native", "HealthKit", "Apple Watch"],
+          "steps": [
+            "Design fitness tracking UI",
+            "Integrate with device health APIs",
+            "Implement workout logging system",
+            "Create analytics dashboard",
+            "Add goal setting and reminders",
+            "Support wearable device integration"
+          ],
+          "domainBasics": "Health and fitness apps often integrate with device-specific APIs for enhanced functionality.",
+          "requiredSkills": ["React Native", "Health APIs", "Data visualization", "Wearable integration"],
+          "techStack": ["React Native", "HealthKit", "Apple Health", "Google Fit"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 305,
+          "name": "Augmented Reality Shopping App",
+          "description": "AR-powered app for virtual product try-ons and shopping",
+          "whyUseful": "Reduces return rates and improves customer satisfaction in e-commerce",
+          "features": ["AR product visualization", "3D model rendering", "Virtual try-ons", "Social sharing"],
+          "technologies": ["React Native", "ARKit/ARCore", "Three.js"],
+          "steps": [
+            "Design AR shopping experience",
+            "Integrate AR frameworks for iOS/Android",
+            "Implement 3D model loading and rendering",
+            "Create virtual try-on functionality",
+            "Add social sharing features",
+            "Optimize for performance and battery life"
+          ],
+          "domainBasics": "Augmented Reality apps overlay digital information onto the real world through device cameras.",
+          "requiredSkills": ["React Native", "AR development", "3D graphics", "Performance optimization"],
+          "techStack": ["React Native", "ARKit", "ARCore", "Three.js", "ViroReact"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 306,
+          "name": "Peer-to-Peer Payment App",
+          "description": "Secure mobile payment platform with instant money transfers",
+          "whyUseful": "Enables fast, secure money transfers between individuals without intermediaries",
+          "features": ["Instant transfers", "Transaction history", "Security features", "Multi-currency support"],
+          "technologies": ["React Native", "Blockchain", "Biometric auth"],
+          "steps": [
+            "Design secure payment architecture",
+            "Implement biometric authentication",
+            "Integrate with payment gateways",
+            "Build transaction processing system",
+            "Add security and fraud detection",
+            "Ensure regulatory compliance"
+          ],
+          "domainBasics": "Financial apps require robust security measures and compliance with regulatory standards.",
+          "requiredSkills": ["React Native", "Security", "Financial regulations", "Biometric authentication"],
+          "techStack": ["React Native", "Stripe", "Plaid", "Biometrics", "Encryption"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 307,
+          "name": "AI-Powered Language Learning App",
+          "description": "Intelligent language learning platform with speech recognition and personalized curriculum",
+          "whyUseful": "Provides personalized language learning experience with real-time feedback",
+          "features": ["Speech recognition", "Personalized learning", "Progress tracking", "Gamification"],
+          "technologies": ["React Native", "TensorFlow.js", "WebRTC", "Firebase"],
+          "steps": [
+            "Design language learning curriculum",
+            "Implement speech recognition",
+            "Create personalized learning paths",
+            "Add progress tracking and analytics",
+            "Integrate with social features",
+            "Test with language learners"
+          ],
+          "domainBasics": "Educational apps require understanding of learning science and user engagement principles.",
+          "requiredSkills": ["React Native", "Machine learning", "Audio processing", "Educational technology"],
+          "techStack": ["React Native", "TensorFlow.js", "WebRTC", "Firebase"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 308,
+          "name": "IoT Home Automation Hub",
+          "description": "Centralized mobile app for controlling smart home devices and automation",
+          "whyUseful": "Provides unified control of all smart home devices with automation capabilities",
+          "features": ["Device integration", "Automation rules", "Voice control", "Energy monitoring"],
+          "technologies": ["React Native", "MQTT", "Bluetooth LE", "HomeKit"],
+          "steps": [
+            "Design device integration framework",
+            "Implement communication protocols",
+            "Create automation rule engine",
+            "Add voice control integration",
+            "Build energy monitoring dashboard",
+            "Test with smart home devices"
+          ],
+          "domainBasics": "IoT apps require handling multiple communication protocols and real-time data processing.",
+          "requiredSkills": ["React Native", "IoT protocols", "Real-time systems", "Device integration"],
+          "techStack": ["React Native", "MQTT", "Bluetooth", "Home Assistant"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 309,
+          "name": "AR Navigation and Wayfinding App",
+          "description": "Augmented reality navigation system for indoor and outdoor environments",
+          "whyUseful": "Provides intuitive navigation in complex environments like airports, malls, and cities",
+          "features": ["AR directions", "3D mapping", "Location sharing", "Accessibility features"],
+          "technologies": ["React Native", "ARKit/ARCore", "Mapbox", "Bluetooth Beacons"],
+          "steps": [
+            "Design AR navigation interface",
+            "Integrate mapping services",
+            "Implement indoor positioning",
+            "Create AR direction overlays",
+            "Add accessibility features",
+            "Test in real environments"
+          ],
+          "domainBasics": "Navigation apps require precise location services and intuitive user interfaces.",
+          "requiredSkills": ["React Native", "AR development", "Geolocation", "User experience"],
+          "techStack": ["React Native", "ARKit", "Mapbox", "Beacons"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 310,
+          "name": "Real-time Collaborative Whiteboard",
+          "description": "Multi-user digital whiteboard with drawing tools and real-time collaboration",
+          "whyUseful": "Enables remote teams to brainstorm and collaborate visually in real-time",
+          "features": ["Real-time drawing", "Multi-user collaboration", "Screen sharing", "Export options"],
+          "technologies": ["React Native", "WebRTC", "Canvas API", "Socket.io"],
+          "steps": [
+            "Design collaborative whiteboard interface",
+            "Implement drawing tools and canvas",
+            "Set up real-time communication",
+            "Add user presence indicators",
+            "Create sharing and export features",
+            "Optimize for low latency"
+          ],
+          "domainBasics": "Collaborative apps require handling concurrent user interactions and data synchronization.",
+          "requiredSkills": ["React Native", "Real-time systems", "Graphics programming", "Concurrency"],
+          "techStack": ["React Native", "WebRTC", "Canvas", "Socket.io"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 311,
+          "name": "AI-Powered Mental Health Companion",
+          "description": "Intelligent mental health support app with mood tracking and personalized interventions",
+          "whyUseful": "Provides accessible mental health support with personalized care and crisis intervention",
+          "features": ["Mood tracking", "Personalized interventions", "Crisis detection", "Therapist integration"],
+          "technologies": ["React Native", "TensorFlow.js", "Natural Language Processing", "HealthKit"],
+          "steps": [
+            "Design mental health framework",
+            "Implement mood tracking system",
+            "Create intervention algorithms",
+            "Add crisis detection",
+            "Integrate with healthcare systems",
+            "Ensure privacy compliance"
+          ],
+          "domainBasics": "Mental health apps require sensitivity, privacy, and evidence-based interventions.",
+          "requiredSkills": ["React Native", "AI/ML", "Healthcare", "Privacy regulations"],
+          "techStack": ["React Native", "TensorFlow.js", "NLP", "HealthKit"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 312,
+          "name": "Augmented Reality Urban Navigation",
+          "description": "AR-powered city navigation system with real-time transit and points of interest",
+          "whyUseful": "Makes urban navigation intuitive with visual overlays and contextual information",
+          "features": ["AR directions", "Transit integration", "POI discovery", "Accessibility features"],
+          "technologies": ["React Native", "ARKit/ARCore", "Mapbox", "Transit APIs"],
+          "steps": [
+            "Design AR navigation interface",
+            "Integrate mapping services",
+            "Implement transit data",
+            "Add POI discovery",
+            "Create accessibility options",
+            "Test in urban environments"
+          ],
+          "domainBasics": "Urban navigation requires real-time data processing and intuitive user interfaces.",
+          "requiredSkills": ["React Native", "AR development", "Geolocation", "Urban planning"],
+          "techStack": ["React Native", "ARKit", "Mapbox", "Transit API"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "IoT",
+      "description": "Internet of Things projects",
+      "icon": "📡",
+      "projects": [
+        {
+          "id": 401,
+          "name": "Smart LED Controller",
+          "description": "Control LEDs remotely using a mobile app",
+          "whyUseful": "Introduction to IoT concepts and remote device control",
+          "features": ["Color changing", "Brightness control", "Mobile app", "Wi-Fi connectivity"],
+          "technologies": ["ESP32", "Arduino", "Mobile App"],
+          "steps": [
+            "Set up ESP32 development environment",
+            "Connect LEDs to ESP32",
+            "Program Wi-Fi connectivity",
+            "Create mobile app interface",
+            "Implement communication protocol",
+            "Test remote control functionality"
+          ],
+          "domainBasics": "IoT refers to the network of physical objects embedded with sensors, software, and connectivity to exchange data with other devices.",
+          "requiredSkills": ["Basic electronics", "C++ programming", "Wi-Fi networking"],
+          "techStack": ["ESP32", "Arduino IDE", "MIT App Inventor"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 402,
+          "name": "Temperature Monitoring System",
+          "description": "Monitor and log temperature data with alerts",
+          "whyUseful": "Automatically tracks environmental conditions and notifies users of anomalies",
+          "features": ["Real-time monitoring", "Data logging", "Alerts", "Web dashboard"],
+          "technologies": ["Arduino", "Temperature Sensor", "WiFi Module"],
+          "steps": [
+            "Connect temperature sensor to Arduino",
+            "Implement data logging to SD card",
+            "Add Wi-Fi module for remote access",
+            "Create web dashboard for visualization",
+            "Set up alert system for thresholds",
+            "Test in various environments"
+          ],
+          "domainBasics": "IoT sensors collect data from the physical world and transmit it for processing and analysis.",
+          "requiredSkills": ["Electronics", "Sensor integration", "Data logging"],
+          "techStack": ["Arduino Uno", "DHT22 Sensor", "ESP8266", "ThingSpeak"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 403,
+          "name": "Smart Home System",
+          "description": "Control home appliances remotely",
+          "whyUseful": "Increases convenience and energy efficiency",
+          "features": ["Remote control", "Automation schedules", "Energy monitoring"],
+          "technologies": ["Arduino", "Raspberry Pi", "MQTT"],
+          "steps": [
+            "Select hardware components",
+            "Set up communication protocols",
+            "Develop control software",
+            "Create mobile interface",
+            "Implement security measures",
+            "Test system integration"
+          ],
+          "domainBasics": "Smart home systems integrate multiple IoT devices to automate household functions.",
+          "requiredSkills": ["Embedded programming", "Network protocols", "System integration"],
+          "techStack": ["Arduino", "Raspberry Pi", "MQTT", "Node-RED"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 404,
+          "name": "Smart Agriculture System",
+          "description": "Automated irrigation and monitoring for farms",
+          "whyUseful": "Optimizes water usage and crop yield through precision farming",
+          "features": ["Soil moisture monitoring", "Automated irrigation", "Weather integration", "Crop analytics"],
+          "technologies": ["Raspberry Pi", "Soil Sensors", "Water Pump"],
+          "steps": [
+            "Install soil and weather sensors",
+            "Set up Raspberry Pi controller",
+            "Implement irrigation control logic",
+            "Create farmer dashboard",
+            "Add weather data integration",
+            "Test in agricultural environment"
+          ],
+          "domainBasics": "Agricultural IoT systems use sensors and actuators to optimize farming operations.",
+          "requiredSkills": ["Sensor networks", "Control systems", "Data analysis"],
+          "techStack": ["Raspberry Pi", "Soil Moisture Sensor", "Relay Module", "Blynk"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 405,
+          "name": "Industrial Predictive Maintenance",
+          "description": "Predict equipment failures before they occur",
+          "whyUseful": "Reduces downtime and maintenance costs in industrial settings",
+          "features": ["Vibration analysis", "Anomaly detection", "Predictive alerts", "Maintenance scheduling"],
+          "technologies": ["Edge AI", "Vibration Sensors", "Cloud Analytics"],
+          "steps": [
+            "Deploy vibration sensors on equipment",
+            "Implement edge computing for real-time analysis",
+            "Train predictive models with historical data",
+            "Create maintenance dashboard",
+            "Set up alert system for anomalies",
+            "Integrate with enterprise systems"
+          ],
+          "domainBasics": "Industrial IoT combines edge computing and machine learning for real-time operational insights.",
+          "requiredSkills": ["Machine learning", "Edge computing", "Industrial protocols"],
+          "techStack": ["NVIDIA Jetson", "Accelerometer", "Azure IoT", "TensorFlow Lite"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 406,
+          "name": "Smart City Traffic Management",
+          "description": "AI-powered traffic light control system",
+          "whyUseful": "Reduces congestion and improves traffic flow in urban areas",
+          "features": ["Real-time traffic analysis", "Adaptive signal timing", "Emergency vehicle priority", "Data analytics"],
+          "technologies": ["Computer Vision", "Traffic Sensors", "5G Communication"],
+          "steps": [
+            "Deploy cameras and sensors at intersections",
+            "Implement computer vision for vehicle detection",
+            "Develop adaptive signal control algorithms",
+            "Create central management system",
+            "Add emergency vehicle prioritization",
+            "Test in simulated city environment"
+          ],
+          "domainBasics": "Smart city infrastructure uses IoT and AI to optimize urban services and resource usage.",
+          "requiredSkills": ["Computer vision", "Distributed systems", "Urban planning"],
+          "techStack": ["OpenCV", "Raspberry Pi", "LoRaWAN", "TensorFlow"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 407,
+          "name": "Precision Agriculture Monitoring System",
+          "description": "Comprehensive farm monitoring with drone surveillance and soil analysis",
+          "whyUseful": "Maximizes crop yield while minimizing resource usage through precision farming",
+          "features": ["Drone surveillance", "Soil moisture monitoring", "Weather integration", "Automated irrigation"],
+          "technologies": ["Drones", "LoRaWAN", "Satellite Imagery", "Machine Learning"],
+          "steps": [
+            "Deploy ground sensors for soil conditions",
+            "Implement drone flight paths and scheduling",
+            "Process satellite and drone imagery",
+            "Create crop health analytics dashboard",
+            "Integrate with irrigation systems",
+            "Test in agricultural environments"
+          ],
+          "domainBasics": "Precision agriculture uses IoT sensors and analytics to optimize farming operations.",
+          "requiredSkills": ["Sensor networks", "Data analysis", "Agricultural science", "Drone operation"],
+          "techStack": ["Drones", "LoRaWAN", "NDVI", "TensorFlow"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 408,
+          "name": "Wearable Health Monitoring Network",
+          "description": "Network of wearable devices for continuous patient health monitoring",
+          "whyUseful": "Enables proactive healthcare with real-time patient data for medical professionals",
+          "features": ["Biometric monitoring", "Emergency alerts", "Data encryption", "Medical integration"],
+          "technologies": ["Wearables", "Bluetooth LE", "Medical APIs", "Edge Computing"],
+          "steps": [
+            "Design wearable device integration",
+            "Implement biometric data collection",
+            "Create edge processing for real-time analysis",
+            "Add secure data transmission",
+            "Build medical professional dashboard",
+            "Ensure HIPAA compliance"
+          ],
+          "domainBasics": "Healthcare IoT requires strict security and regulatory compliance for patient data.",
+          "requiredSkills": ["Biomedical sensors", "Security", "Healthcare regulations", "Real-time systems"],
+          "techStack": ["Wearables", "Bluetooth", "HIPAA", "Edge AI"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 409,
+          "name": "Smart Energy Grid Management",
+          "description": "Intelligent energy distribution system with renewable integration",
+          "whyUseful": "Optimizes energy distribution and integrates renewable sources for sustainability",
+          "features": ["Renewable integration", "Demand forecasting", "Grid stability", "Consumer analytics"],
+          "technologies": ["Smart Meters", "Renewable APIs", "Predictive Analytics", "Blockchain"],
+          "steps": [
+            "Deploy smart meters and sensors",
+            "Integrate renewable energy sources",
+            "Implement demand forecasting models",
+            "Create grid management algorithms",
+            "Add consumer analytics dashboard",
+            "Test with utility partners"
+          ],
+          "domainBasics": "Smart grids require balancing supply and demand with renewable energy integration.",
+          "requiredSkills": ["Energy systems", "Predictive analytics", "Distributed systems", "Renewable energy"],
+          "techStack": ["Smart Meters", "Solar APIs", "TensorFlow", "Blockchain"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 410,
+          "name": "Autonomous Delivery Robot Fleet",
+          "description": "Network of autonomous robots for last-mile delivery with fleet management",
+          "whyUseful": "Reduces delivery costs and environmental impact with autonomous navigation",
+          "features": ["Autonomous navigation", "Fleet management", "Package tracking", "Obstacle avoidance"],
+          "technologies": ["Robotics", "LiDAR", "GPS", "Fleet Management"],
+          "steps": [
+            "Design robot hardware and sensors",
+            "Implement navigation and path planning",
+            "Create fleet management system",
+            "Add package tracking and security",
+            "Test obstacle avoidance algorithms",
+            "Deploy in controlled environments"
+          ],
+          "domainBasics": "Autonomous delivery systems require coordination of robotics, navigation, and logistics.",
+          "requiredSkills": ["Robotics", "Navigation algorithms", "Fleet management", "Logistics"],
+          "techStack": ["Robotics", "LiDAR", "ROS", "Fleet Manager"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 411,
+          "name": "Smart Water Quality Monitoring",
+          "description": "Real-time water quality monitoring system for environmental protection",
+          "whyUseful": "Protects public health and environment by detecting water contamination early",
+          "features": ["Real-time monitoring", "Contamination detection", "Alert system", "Data analytics"],
+          "technologies": ["Water Sensors", "LoRaWAN", "Cloud Analytics", "Mobile Alerts"],
+          "steps": [
+            "Deploy water quality sensors",
+            "Set up LoRaWAN communication network",
+            "Implement real-time data processing",
+            "Create contamination detection algorithms",
+            "Build alert system for authorities",
+            "Test in various water bodies"
+          ],
+          "domainBasics": "Environmental monitoring systems use sensor networks to track ecosystem health indicators.",
+          "requiredSkills": ["Environmental sensors", "Wireless networks", "Data analysis", "Environmental science"],
+          "techStack": ["Water Sensors", "LoRaWAN", "AWS IoT", "Grafana"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 412,
+          "name": "Industrial Asset Tracking",
+          "description": "Real-time tracking and management of industrial assets using RFID and GPS",
+          "whyUseful": "Improves asset utilization and reduces losses in industrial operations",
+          "features": ["Real-time location tracking", "Asset condition monitoring", "Inventory management", "Predictive maintenance"],
+          "technologies": ["RFID", "GPS", "Bluetooth Beacons", "Cloud Database"],
+          "steps": [
+            "Attach tracking devices to assets",
+            "Set up gateway infrastructure",
+            "Implement real-time tracking system",
+            "Add condition monitoring sensors",
+            "Create inventory management dashboard",
+            "Integrate with ERP systems"
+          ],
+          "domainBasics": "Asset tracking systems combine multiple technologies for comprehensive location and condition monitoring.",
+          "requiredSkills": ["RFID/GPS technologies", "Database design", "System integration", "Supply chain management"],
+          "techStack": ["RFID", "GPS", "Bluetooth", "MongoDB"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cybersecurity",
+      "description": "Protecting systems, networks, and data from digital attacks",
+      "icon": "🔒",
+      "projects": [
+        {
+          "id": 501,
+          "name": "Password Manager",
+          "description": "Secure application for storing and managing passwords",
+          "whyUseful": "Helps users securely store and manage multiple complex passwords",
+          "features": ["Encrypted storage", "Password generation", "Auto-fill", "Cross-platform sync"],
+          "technologies": ["Cryptography", "SQLite", "Desktop Framework"],
+          "steps": [
+            "Design secure password storage architecture",
+            "Implement strong encryption algorithms",
+            "Create user interface for password management",
+            "Add password generation functionality",
+            "Implement auto-fill browser extension",
+            "Test security against common vulnerabilities"
+          ],
+          "domainBasics": "Password managers use cryptographic techniques to securely store sensitive authentication data.",
+          "requiredSkills": ["Cryptography", "Secure coding practices", "Database management"],
+          "techStack": ["Python", "Cryptography", "SQLite", "Tkinter"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 502,
+          "name": "Network Port Scanner",
+          "description": "Tool for discovering open ports and services on network devices",
+          "whyUseful": "Helps identify potential security vulnerabilities in network infrastructure",
+          "features": ["Port scanning", "Service detection", "Banner grabbing", "Report generation"],
+          "technologies": ["Networking", "Socket Programming", "TCP/IP"],
+          "steps": [
+            "Design scanning architecture",
+            "Implement TCP and UDP scanning methods",
+            "Add service fingerprinting capabilities",
+            "Create user-friendly interface",
+            "Implement result reporting",
+            "Test against various network configurations"
+          ],
+          "domainBasics": "Network scanning tools help identify exposed services and potential attack vectors.",
+          "requiredSkills": ["Networking fundamentals", "Socket programming", "TCP/IP protocols"],
+          "techStack": ["Python", "Scapy", "Nmap", "Socket"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 503,
+          "name": "Two-Factor Authentication System",
+          "description": "Implementation of 2FA for web applications",
+          "whyUseful": "Adds an extra layer of security to protect user accounts from unauthorized access",
+          "features": ["TOTP generation", "QR code provisioning", "Backup codes", "Recovery options"],
+          "technologies": ["Cryptography", "Time-based Tokens", "QR Codes"],
+          "steps": [
+            "Design 2FA system architecture",
+            "Implement TOTP algorithm",
+            "Create QR code provisioning system",
+            "Add backup and recovery mechanisms",
+            "Integrate with web authentication flow",
+            "Test against various attack scenarios"
+          ],
+          "domainBasics": "Two-factor authentication combines something you know with something you have for stronger security.",
+          "requiredSkills": ["Cryptography", "Authentication protocols", "Web security"],
+          "techStack": ["Node.js", "Speakeasy", "QRCode", "Express"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 504,
+          "name": "Intrusion Detection System",
+          "description": "Network-based IDS for detecting suspicious activities",
+          "whyUseful": "Monitors network traffic to identify potential security threats and attacks",
+          "features": ["Packet analysis", "Signature matching", "Anomaly detection", "Alert system"],
+          "technologies": ["Packet Capture", "Pattern Matching", "Machine Learning"],
+          "steps": [
+            "Design packet capture architecture",
+            "Implement signature-based detection",
+            "Add anomaly detection algorithms",
+            "Create alert notification system",
+            "Build management dashboard",
+            "Test with real network traffic"
+          ],
+          "domainBasics": "Intrusion detection systems monitor network traffic for malicious activities or policy violations.",
+          "requiredSkills": ["Network protocols", "Pattern recognition", "System administration"],
+          "techStack": ["Python", "Scapy", "Snort", "Pandas"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 505,
+          "name": "Penetration Testing Framework",
+          "description": "Automated security testing platform for vulnerability assessment",
+          "whyUseful": "Helps organizations identify security weaknesses before malicious attackers do",
+          "features": ["Automated scanning", "Vulnerability assessment", "Reporting", "Exploitation tools"],
+          "technologies": ["Vulnerability Scanning", "Exploitation", "Reporting"],
+          "steps": [
+            "Design modular testing framework",
+            "Implement common vulnerability scanners",
+            "Add exploitation modules",
+            "Create comprehensive reporting system",
+            "Add remediation recommendations",
+            "Test against vulnerable applications"
+          ],
+          "domainBasics": "Penetration testing simulates real-world attacks to identify security vulnerabilities.",
+          "requiredSkills": ["Ethical hacking", "Vulnerability assessment", "Exploitation techniques"],
+          "techStack": ["Python", "Metasploit", "Nmap", "SQLMap"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 506,
+          "name": "Blockchain-based Identity Verification",
+          "description": "Decentralized identity management using blockchain technology",
+          "whyUseful": "Provides secure, tamper-proof identity verification without centralized authorities",
+          "features": ["Decentralized identity", "Immutable records", "Zero-knowledge proofs", "Cross-platform integration"],
+          "technologies": ["Blockchain", "Cryptography", "Smart Contracts"],
+          "steps": [
+            "Design decentralized identity architecture",
+            "Implement blockchain identity registry",
+            "Create zero-knowledge proof system",
+            "Build identity verification interface",
+            "Add cross-platform integration",
+            "Test against various attack vectors"
+          ],
+          "domainBasics": "Blockchain-based identity systems use distributed ledgers for tamper-resistant identity management.",
+          "requiredSkills": ["Blockchain technology", "Cryptography", "Smart contract development"],
+          "techStack": ["Ethereum", "Solidity", "Web3.js", "Truffle"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 507,
+          "name": "AI-Powered Threat Intelligence Platform",
+          "description": "Machine learning system for analyzing cyber threats and predicting attacks",
+          "whyUseful": "Uses AI to identify emerging threats and predict potential attack vectors",
+          "features": ["Threat intelligence aggregation", "Malware analysis", "Attack prediction", "Automated response"],
+          "technologies": ["Machine Learning", "Threat Intelligence", "Big Data"],
+          "steps": [
+            "Aggregate threat intelligence feeds",
+            "Implement malware analysis engines",
+            "Train predictive models on threat data",
+            "Create attack prediction algorithms",
+            "Add automated response capabilities",
+            "Test with historical threat data"
+          ],
+          "domainBasics": "AI-powered cybersecurity uses machine learning to detect patterns and predict threats.",
+          "requiredSkills": ["Machine learning", "Threat analysis", "Big data processing"],
+          "techStack": ["Python", "TensorFlow", "Splunk", "Kafka"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 508,
+          "name": "Homomorphic Encryption Library",
+          "description": "Library for performing computations on encrypted data without decryption",
+          "whyUseful": "Enables secure cloud computing where data remains encrypted during processing",
+          "features": ["Encrypted computation", "Key management", "Performance optimization", "API integration"],
+          "technologies": ["Advanced Cryptography", "Homomorphic Encryption", "Mathematical Libraries"],
+          "steps": [
+            "Research homomorphic encryption schemes",
+            "Implement core encryption algorithms",
+            "Optimize for performance",
+            "Create developer-friendly API",
+            "Add key management system",
+            "Test with real-world applications"
+          ],
+          "domainBasics": "Homomorphic encryption allows computations on encrypted data without decrypting it first.",
+          "requiredSkills": ["Advanced cryptography", "Mathematics", "Performance optimization"],
+          "techStack": ["C++", "HElib", "SEAL", "OpenSSL"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 509,
+          "name": "Quantum-Resistant Cryptographic System",
+          "description": "Cryptographic system resistant to quantum computing attacks",
+          "whyUseful": "Prepares infrastructure for post-quantum cryptography era",
+          "features": ["Quantum-resistant algorithms", "Key exchange", "Digital signatures", "Backward compatibility"],
+          "technologies": ["Post-Quantum Cryptography", "Lattice-based Crypto", "Hash-based Signatures"],
+          "steps": [
+            "Research quantum-resistant algorithms",
+            "Implement lattice-based cryptography",
+            "Create key exchange protocols",
+            "Add digital signature schemes",
+            "Ensure backward compatibility",
+            "Test against quantum attack simulations"
+          ],
+          "domainBasics": "Post-quantum cryptography protects against future quantum computing threats.",
+          "requiredSkills": ["Advanced mathematics", "Cryptography", "Quantum computing basics"],
+          "techStack": ["Python", "liboqs", "OpenSSL", "NIST PQC"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 510,
+          "name": "Zero Trust Network Implementation",
+          "description": "Complete zero trust architecture with continuous verification",
+          "whyUseful": "Secures modern distributed networks with continuous authentication and authorization",
+          "features": ["Continuous verification", "Micro-segmentation", "Policy enforcement", "Behavioral analytics"],
+          "technologies": ["Zero Trust", "SD-WAN", "Identity Management", "Network Security"],
+          "steps": [
+            "Design zero trust architecture",
+            "Implement identity provider integration",
+            "Create micro-segmentation policies",
+            "Add continuous monitoring system",
+            "Build policy enforcement points",
+            "Test with enterprise network topology"
+          ],
+          "domainBasics": "Zero trust security assumes no implicit trust and continuously validates every transaction.",
+          "requiredSkills": ["Network security", "Identity management", "Policy design"],
+          "techStack": ["Zscaler", "Okta", "Cisco SD-WAN", "Palo Alto"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 511,
+          "name": "Deception Technology Platform",
+          "description": "Advanced honeypot and deception system for detecting insider threats",
+          "whyUseful": "Detects malicious activities by presenting fake assets that alert when accessed",
+          "features": ["Honeytokens", "Decoy networks", "Behavioral analysis", "Incident response"],
+          "technologies": ["Honeypots", "Deception Technology", "Network Emulation"],
+          "steps": [
+            "Design deception architecture",
+            "Create realistic decoy assets",
+            "Implement honeytoken generation",
+            "Add behavioral analysis engine",
+            "Build incident response system",
+            "Test with red team exercises"
+          ],
+          "domainBasics": "Deception technology uses decoys to detect and analyze attacker behavior.",
+          "requiredSkills": ["Network security", "Social engineering", "Incident response"],
+          "techStack": ["Docker", "Kali Linux", "Canarytokens", "ELK Stack"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 512,
+          "name": "Secure Multi-Party Computation Platform",
+          "description": "Platform for collaborative computation without revealing private data",
+          "whyUseful": "Enables organizations to jointly compute results without sharing sensitive data",
+          "features": ["Private computation", "Data privacy", "Collaborative analytics", "Audit trails"],
+          "technologies": ["Secure MPC", "Cryptography", "Distributed Systems"],
+          "steps": [
+            "Design MPC architecture",
+            "Implement secret sharing protocols",
+            "Create secure computation functions",
+            "Add privacy-preserving analytics",
+            "Build audit and compliance features",
+            "Test with financial data scenarios"
+          ],
+          "domainBasics": "Secure multi-party computation allows parties to compute functions without revealing inputs.",
+          "requiredSkills": ["Advanced cryptography", "Distributed systems", "Privacy engineering"],
+          "techStack": ["Python", "MP-SPDZ", "Sharemind", "LibTMCG"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Data Science",
+      "description": "Extracting insights and knowledge from structured and unstructured data",
+      "icon": "📊",
+      "projects": [
+        {
+          "id": 601,
+          "name": "Sales Data Analysis Dashboard",
+          "description": "Interactive dashboard for analyzing sales performance and trends",
+          "whyUseful": "Helps businesses make data-driven decisions by visualizing sales metrics",
+          "features": ["Sales trend analysis", "Regional performance", "Product comparison", "Forecasting"],
+          "technologies": ["Python", "Pandas", "Matplotlib", "Dash"],
+          "steps": [
+            "Collect and clean sales data",
+            "Perform exploratory data analysis",
+            "Create visualizations for key metrics",
+            "Build interactive dashboard interface",
+            "Add filtering and drill-down capabilities",
+            "Implement forecasting models"
+          ],
+          "domainBasics": "Data analysis transforms raw data into meaningful insights for business decision-making.",
+          "requiredSkills": ["Data cleaning", "Statistical analysis", "Data visualization"],
+          "techStack": ["Python", "Pandas", "Plotly", "Dash"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 602,
+          "name": "Customer Segmentation System",
+          "description": "Machine learning system for grouping customers based on behavior",
+          "whyUseful": "Enables targeted marketing campaigns and personalized customer experiences",
+          "features": ["Clustering algorithms", "Customer profiling", "Segment analysis", "Recommendation engine"],
+          "technologies": ["Python", "Scikit-learn", "K-means", "Customer Data"],
+          "steps": [
+            "Collect customer data from multiple sources",
+            "Preprocess and normalize data",
+            "Apply clustering algorithms",
+            "Analyze customer segments",
+            "Create segment profiles",
+            "Implement recommendation system"
+          ],
+          "domainBasics": "Customer segmentation groups customers with similar characteristics for targeted marketing.",
+          "requiredSkills": ["Clustering algorithms", "Data preprocessing", "Market analysis"],
+          "techStack": ["Python", "Scikit-learn", "K-means", "Seaborn"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 603,
+          "name": "Stock Market Prediction Model",
+          "description": "Time series forecasting model for stock price prediction",
+          "whyUseful": "Helps investors make informed decisions based on predictive analytics",
+          "features": ["Time series analysis", "Feature engineering", "Model evaluation", "Risk assessment"],
+          "technologies": ["Python", "Time Series", "LSTM", "Financial Data"],
+          "steps": [
+            "Collect historical stock data",
+            "Perform time series analysis",
+            "Engineer relevant features",
+            "Train prediction models",
+            "Evaluate model performance",
+            "Create risk assessment metrics"
+          ],
+          "domainBasics": "Time series forecasting uses historical patterns to predict future values.",
+          "requiredSkills": ["Time series analysis", "Machine learning", "Financial markets"],
+          "techStack": ["Python", "TensorFlow", "LSTM", "Yahoo Finance"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 604,
+          "name": "Social Media Sentiment Analyzer",
+          "description": "Real-time analysis of public sentiment on social media platforms",
+          "whyUseful": "Helps brands understand public perception and respond to trends quickly",
+          "features": ["Real-time processing", "Sentiment classification", "Trend detection", "Brand monitoring"],
+          "technologies": ["Python", "NLP", "Twitter API", "Stream Processing"],
+          "steps": [
+            "Set up social media data streams",
+            "Implement text preprocessing pipeline",
+            "Train sentiment classification models",
+            "Create real-time processing system",
+            "Build visualization dashboard",
+            "Add alert system for significant changes"
+          ],
+          "domainBasics": "Sentiment analysis uses NLP to determine emotional tone in text data.",
+          "requiredSkills": ["Natural language processing", "Stream processing", "Classification algorithms"],
+          "techStack": ["Python", "NLTK", "Twitter API", "Kafka"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 605,
+          "name": "Fraud Detection System",
+          "description": "Machine learning system for detecting fraudulent transactions",
+          "whyUseful": "Protects financial institutions and customers from monetary losses",
+          "features": ["Anomaly detection", "Real-time scoring", "Alert system", "Model retraining"],
+          "technologies": ["Python", "Anomaly Detection", "XGBoost", "Streaming Data"],
+          "steps": [
+            "Collect transaction data",
+            "Perform feature engineering",
+            "Train anomaly detection models",
+            "Implement real-time scoring engine",
+            "Create alert and investigation workflows",
+            "Add model monitoring and retraining"
+          ],
+          "domainBasics": "Fraud detection identifies unusual patterns that may indicate fraudulent activity.",
+          "requiredSkills": ["Anomaly detection", "Imbalanced datasets", "Real-time processing"],
+          "techStack": ["Python", "XGBoost", "Apache Spark", "Kafka"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 606,
+          "name": "Recommendation Engine",
+          "description": "Personalized recommendation system using collaborative filtering",
+          "whyUseful": "Increases user engagement and revenue through personalized content suggestions",
+          "features": ["Collaborative filtering", "Content-based filtering", "Hybrid approach", "Real-time updates"],
+          "technologies": ["Python", "Matrix Factorization", "Deep Learning", "Spark"],
+          "steps": [
+            "Collect user-item interaction data",
+            "Implement collaborative filtering algorithms",
+            "Add content-based features",
+            "Create hybrid recommendation model",
+            "Build real-time serving system",
+            "Evaluate recommendation quality"
+          ],
+          "domainBasics": "Recommendation systems suggest items based on user preferences and behavior patterns.",
+          "requiredSkills": ["Matrix factorization", "Deep learning", "Large-scale computing"],
+          "techStack": ["Python", "TensorFlow", "Apache Spark", "Redis"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 607,
+          "name": "Predictive Maintenance System",
+          "description": "IoT-based system for predicting equipment failures before they occur",
+          "whyUseful": "Reduces downtime and maintenance costs in industrial environments",
+          "features": ["Sensor data analysis", "Failure prediction", "Maintenance scheduling", "Cost optimization"],
+          "technologies": ["Python", "Time Series", "IoT Sensors", "Machine Learning"],
+          "steps": [
+            "Collect sensor data from equipment",
+            "Perform time series feature engineering",
+            "Train failure prediction models",
+            "Create maintenance scheduling system",
+            "Implement cost optimization algorithms",
+            "Test with real industrial equipment"
+          ],
+          "domainBasics": "Predictive maintenance uses sensor data to anticipate equipment failures.",
+          "requiredSkills": ["Time series analysis", "IoT data processing", "Reliability engineering"],
+          "techStack": ["Python", "TensorFlow", "IoT Sensors", "InfluxDB"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 608,
+          "name": "Natural Language Generation System",
+          "description": "AI system that generates human-like text from structured data",
+          "whyUseful": "Automates content creation for reports, summaries, and personalized communications",
+          "features": ["Template-based generation", "Neural text generation", "Style control", "Fact checking"],
+          "technologies": ["Python", "NLP", "Transformers", "Sequence-to-Sequence"],
+          "steps": [
+            "Collect and preprocess training data",
+            "Fine-tune language models",
+            "Create template and rule systems",
+            "Implement style control mechanisms",
+            "Add fact verification components",
+            "Test with various content types"
+          ],
+          "domainBasics": "Natural language generation converts structured data into human-readable text.",
+          "requiredSkills": ["Natural language processing", "Deep learning", "Linguistics"],
+          "techStack": ["Python", "GPT", "Transformers", "NLG"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 609,
+          "name": "Computer Vision for Medical Imaging",
+          "description": "Deep learning system for analyzing medical images and detecting abnormalities",
+          "whyUseful": "Assists medical professionals in diagnosis and reduces human error",
+          "features": ["Image classification", "Object detection", "Segmentation", "Uncertainty quantification"],
+          "technologies": ["Python", "Computer Vision", "Deep Learning", "Medical Imaging"],
+          "steps": [
+            "Collect and annotate medical image datasets",
+            "Preprocess images for deep learning",
+            "Train convolutional neural networks",
+            "Implement uncertainty quantification",
+            "Create clinical integration interface",
+            "Validate with medical experts"
+          ],
+          "domainBasics": "Medical computer vision analyzes images to assist in clinical diagnosis.",
+          "requiredSkills": ["Computer vision", "Deep learning", "Medical domain knowledge"],
+          "techStack": ["Python", "PyTorch", "OpenCV", "DICOM"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 610,
+          "name": "Real-time Analytics Pipeline",
+          "description": "End-to-end system for processing and analyzing streaming data",
+          "whyUseful": "Enables immediate insights from continuously generated data sources",
+          "features": ["Stream processing", "Real-time dashboards", "Alerting", "Historical analysis"],
+          "technologies": ["Python", "Stream Processing", "Kafka", "Real-time Databases"],
+          "steps": [
+            "Design streaming architecture",
+            "Set up data ingestion pipelines",
+            "Implement real-time processing logic",
+            "Create visualization dashboards",
+            "Add alerting mechanisms",
+            "Optimize for scalability"
+          ],
+          "domainBasics": "Real-time analytics processes data as it's generated for immediate insights.",
+          "requiredSkills": ["Stream processing", "Distributed systems", "Real-time databases"],
+          "techStack": ["Python", "Apache Kafka", "Apache Flink", "Redis"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 611,
+          "name": "A/B Testing Platform",
+          "description": "Comprehensive platform for designing and analyzing A/B tests",
+          "whyUseful": "Enables data-driven product decisions through controlled experimentation",
+          "features": ["Test design", "Randomization", "Statistical analysis", "Reporting"],
+          "technologies": ["Python", "Statistics", "Experimentation", "Web Frameworks"],
+          "steps": [
+            "Design experiment framework",
+            "Implement randomization algorithms",
+            "Create statistical analysis tools",
+            "Build user interface for test management",
+            "Add reporting and visualization",
+            "Test with real experiments"
+          ],
+          "domainBasics": "A/B testing compares variants to determine which performs better statistically.",
+          "requiredSkills": ["Experimental design", "Statistics", "Causal inference"],
+          "techStack": ["Python", "SciPy", "Flask", "Bootstrap"],
+          "demoImages": [],
+          "level": "Advanced"
+        },
+        {
+          "id": 612,
+          "name": "Customer Lifetime Value Predictor",
+          "description": "Machine learning system for predicting customer lifetime value and churn risk",
+          "whyUseful": "Helps businesses optimize marketing spend and retention strategies",
+          "features": ["CLV prediction", "Churn risk scoring", "Segmentation", "Intervention recommendations"],
+          "technologies": ["Python", "Survival Analysis", "Gradient Boosting", "Customer Analytics"],
+          "steps": [
+            "Collect customer transaction history",
+            "Calculate historical CLV metrics",
+            "Engineer predictive features",
+            "Train survival analysis models",
+            "Implement churn risk scoring",
+            "Create intervention recommendation engine"
+          ],
+          "domainBasics": "Customer lifetime value predicts the total worth of a customer over their relationship with a business.",
+          "requiredSkills": ["Survival analysis", "Customer analytics", "Gradient boosting"],
+          "techStack": ["Python", "XGBoost", "Lifelines", "Pandas"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cloud Computing",
+      "description": "Scalable and flexible computing resources over the internet",
+      "icon": "☁️",
+      "projects": [
+        {
+          "id": 701,
+          "name": "Serverless Function Deployment",
+          "description": "Deploy and manage serverless functions on cloud platforms",
+          "whyUseful": "Reduces infrastructure management overhead while providing automatic scaling",
+          "features": ["Auto-scaling", "Pay-per-use", "Event-driven", "Zero maintenance"],
+          "technologies": ["AWS Lambda", "API Gateway", "DynamoDB", "S3"],
+          "steps": [
+            "Design serverless architecture",
+            "Implement cloud functions",
+            "Set up managed databases",
+            "Configure event triggers",
+            "Add monitoring and logging",
+            "Optimize for cost and performance"
+          ],
+          "domainBasics": "Serverless computing abstracts infrastructure management for faster development.",
+          "requiredSkills": ["Cloud platforms", "Event-driven design", "Cost optimization", "Security"],
+          "techStack": ["AWS", "Lambda", "DynamoDB", "CloudFront"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 702,
+          "name": "Kubernetes Cluster Management",
+          "description": "Orchestrate containerized applications with Kubernetes",
+          "whyUseful": "Enables scalable deployment and management of containerized applications",
+          "features": ["Container orchestration", "Auto-scaling", "Service discovery", "Rolling updates"],
+          "technologies": ["Docker", "Kubernetes", "Helm", "Prometheus"],
+          "steps": [
+            "Set up Kubernetes cluster",
+            "Create deployment manifests",
+            "Implement service discovery",
+            "Configure auto-scaling",
+            "Add monitoring and logging",
+            "Implement CI/CD pipeline"
+          ],
+          "domainBasics": "Kubernetes automates deployment, scaling, and management of containerized applications.",
+          "requiredSkills": ["Containerization", "Kubernetes", "Infrastructure as Code", "DevOps"],
+          "techStack": ["Docker", "Kubernetes", "Helm", "Prometheus"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Blockchain",
+      "description": "Decentralized and distributed ledger technology",
+      "icon": "🔗",
+      "projects": [
+        {
+          "id": 801,
+          "name": "Smart Contract Development",
+          "description": "Create and deploy smart contracts on Ethereum blockchain",
+          "whyUseful": "Enables automated, trustless execution of agreements without intermediaries",
+          "features": ["Decentralized execution", "Immutable records", "Automated enforcement", "Transparency"],
+          "technologies": ["Solidity", "Ethereum", "Web3.js", "Truffle"],
+          "steps": [
+            "Design smart contract architecture",
+            "Implement contract logic in Solidity",
+            "Write unit tests for contracts",
+            "Deploy to test network",
+            "Integrate with frontend application",
+            "Deploy to mainnet"
+          ],
+          "domainBasics": "Smart contracts are self-executing contracts with terms directly written into code.",
+          "requiredSkills": ["Solidity", "Blockchain concepts", "Cryptography", "Web development"],
+          "techStack": ["Solidity", "Ethereum", "Web3.js", "Truffle"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 802,
+          "name": "Decentralized Finance (DeFi) Platform",
+          "description": "Build a decentralized finance application with lending and borrowing features",
+          "whyUseful": "Creates financial services without traditional intermediaries like banks",
+          "features": ["Lending protocols", "Automated market makers", "Yield farming", "Governance tokens"],
+          "technologies": ["Solidity", "Ethereum", "DeFi protocols", "Web3.js"],
+          "steps": [
+            "Design DeFi architecture",
+            "Implement lending and borrowing contracts",
+            "Create liquidity pools",
+            "Add governance mechanisms",
+            "Implement security measures",
+            "Deploy and test with users"
+          ],
+          "domainBasics": "DeFi recreates traditional financial instruments in a decentralized architecture.",
+          "requiredSkills": ["Blockchain", "Smart contracts", "Financial protocols", "Security"],
+          "techStack": ["Solidity", "Ethereum", "Uniswap", "Compound"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Game Development",
+      "description": "Creating interactive entertainment software",
+      "icon": "🎮",
+      "projects": [
+        {
+          "id": 901,
+          "name": "2D Platformer Game",
+          "description": "Create a 2D side-scrolling platformer game with character movement and obstacles",
+          "whyUseful": "Teaches fundamental game development concepts and mechanics",
+          "features": ["Character movement", "Collision detection", "Level design", "Score system"],
+          "technologies": ["Unity", "C#", "Sprite Renderer", "Physics Engine"],
+          "steps": [
+            "Set up Unity project",
+            "Create player character controller",
+            "Design level layouts",
+            "Implement collision detection",
+            "Add scoring and UI",
+            "Test and optimize gameplay"
+          ],
+          "domainBasics": "Game development combines programming, art, and design to create interactive experiences.",
+          "requiredSkills": ["Programming basics", "Game mechanics", "UI/UX design", "Problem-solving"],
+          "techStack": ["Unity", "C#", "Photoshop", "Audacity"],
+          "demoImages": [],
+          "level": "Basic"
+        },
+        {
+          "id": 902,
+          "name": "Multiplayer Online Game",
+          "description": "Build a real-time multiplayer game with networking",
+          "whyUseful": "Enables players to compete and collaborate in shared virtual spaces",
+          "features": ["Real-time networking", "Player synchronization", "Matchmaking", "Leaderboards"],
+          "technologies": ["Unity", "Photon", "C#", "Networking"],
+          "steps": [
+            "Design game architecture for networking",
+            "Implement player authentication",
+            "Create real-time communication system",
+            "Build matchmaking service",
+            "Add leaderboard functionality",
+            "Optimize for latency and performance"
+          ],
+          "domainBasics": "Multiplayer games require handling network synchronization and real-time interactions.",
+          "requiredSkills": ["Networking", "Real-time systems", "Game development", "Concurrency"],
+          "techStack": ["Unity", "Photon", "C#", "WebSocket"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Augmented Reality",
+      "description": "Overlaying digital information on the real world",
+      "icon": "👓",
+      "projects": [
+        {
+          "id": 1001,
+          "name": "AR Product Visualization",
+          "description": "Allow users to visualize products in their real environment using AR",
+          "whyUseful": "Enhances customer experience in e-commerce by enabling virtual try-ons",
+          "features": ["3D model rendering", "Spatial mapping", "Gesture recognition", "Real-time tracking"],
+          "technologies": ["ARKit/ARCore", "Unity", "3D Modeling", "Computer Vision"],
+          "steps": [
+            "Set up AR development environment",
+            "Import 3D product models",
+            "Implement spatial mapping",
+            "Add gesture recognition",
+            "Create user interface",
+            "Test on various devices"
+          ],
+          "domainBasics": "Augmented Reality enhances the real world with digital overlays.",
+          "requiredSkills": ["3D graphics", "Mobile development", "Computer vision", "UI/UX design"],
+          "techStack": ["Unity", "ARKit", "ARCore", "Blender"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 1002,
+          "name": "AR Educational App",
+          "description": "Interactive educational application that brings learning materials to life",
+          "whyUseful": "Makes learning more engaging and interactive through immersive experiences",
+          "features": ["Interactive 3D models", "Educational content", "Progress tracking", "Multi-language support"],
+          "technologies": ["ARKit/ARCore", "Unity", "Educational APIs", "Machine Learning"],
+          "steps": [
+            "Design educational AR experiences",
+            "Create 3D learning assets",
+            "Implement content management system",
+            "Add progress tracking",
+            "Integrate with learning platforms",
+            "Test with students and teachers"
+          ],
+          "domainBasics": "AR in education makes abstract concepts tangible and interactive.",
+          "requiredSkills": ["Educational technology", "3D modeling", "AR development", "Instructional design"],
+          "techStack": ["Unity", "ARKit", "ARCore", "Firebase"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Network Security",
+      "description": "Protecting systems, networks and data from digital attacks",
+      "icon": "🔒",
+      "projects": [
+        {
+          "id": 1101,
+          "name": "Network Vulnerability Scanner",
+          "description": "Tool for discovering and assessing security vulnerabilities in networks",
+          "whyUseful": "Helps organizations identify and remediate security weaknesses proactively",
+          "features": ["Port scanning", "Service detection", "Vulnerability assessment", "Reporting"],
+          "technologies": ["Python", "Nmap", "Scapy", "Network Protocols"],
+          "steps": [
+            "Design scanning architecture",
+            "Implement port and service scanning",
+            "Add vulnerability detection modules",
+            "Create reporting system",
+            "Implement secure communication",
+            "Test against various network configurations"
+          ],
+          "domainBasics": "Vulnerability scanning identifies security weaknesses in network infrastructure.",
+          "requiredSkills": ["Networking", "Security concepts", "Python programming", "Risk assessment"],
+          "techStack": ["Python", "Nmap", "Scapy", "SQLite"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 1102,
+          "name": "Intrusion Detection System",
+          "description": "Real-time monitoring system for detecting malicious network activities",
+          "whyUseful": "Provides early warning of potential security breaches and attacks",
+          "features": ["Real-time monitoring", "Anomaly detection", "Signature-based detection", "Alert system"],
+          "technologies": ["Python", "Machine Learning", "Packet Capture", "Snort"],
+          "steps": [
+            "Design packet capture system",
+            "Implement signature-based detection",
+            "Add anomaly detection algorithms",
+            "Create alert notification system",
+            "Build management dashboard",
+            "Test with real network traffic"
+          ],
+          "domainBasics": "Intrusion detection systems monitor network traffic for malicious activities.",
+          "requiredSkills": ["Network security", "Machine learning", "Packet analysis", "System administration"],
+          "techStack": ["Python", "TensorFlow", "Scapy", "Snort"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "DevOps",
+      "description": "Combining software development and IT operations for faster delivery",
+      "icon": "⚙️",
+      "projects": [
+        {
+          "id": 1201,
+          "name": "CI/CD Pipeline Setup",
+          "description": "Automate building, testing, and deployment of applications",
+          "whyUseful": "Reduces manual errors and speeds up software delivery cycles",
+          "features": ["Automated testing", "Continuous integration", "Deployment automation", "Monitoring"],
+          "technologies": ["Jenkins", "Docker", "Git", "Ansible"],
+          "steps": [
+            "Set up version control integration",
+            "Create build automation scripts",
+            "Implement testing pipelines",
+            "Configure deployment workflows",
+            "Add monitoring and notifications",
+            "Optimize pipeline performance"
+          ],
+          "domainBasics": "CI/CD automates the software delivery process from build to deployment.",
+          "requiredSkills": ["Scripting", "Version control", "Automation", "System administration"],
+          "techStack": ["Jenkins", "Docker", "Git", "Ansible"],
+          "demoImages": [],
+          "level": "Intermediate"
+        },
+        {
+          "id": 1202,
+          "name": "Infrastructure as Code",
+          "description": "Manage and provision computing infrastructure through machine-readable definition files",
+          "whyUseful": "Ensures consistent and reproducible infrastructure deployments",
+          "features": ["Version-controlled infrastructure", "Automated provisioning", "Configuration management", "Disaster recovery"],
+          "technologies": ["Terraform", "AWS", "Azure", "Infrastructure"],
+          "steps": [
+            "Design infrastructure architecture",
+            "Write Terraform configuration files",
+            "Implement modular infrastructure components",
+            "Add security and compliance controls",
+            "Create disaster recovery procedures",
+            "Test infrastructure deployments"
+          ],
+          "domainBasics": "Infrastructure as Code treats infrastructure configuration as software.",
+          "requiredSkills": ["Cloud platforms", "Automation", "Scripting", "Security"],
+          "techStack": ["Terraform", "AWS", "Azure", "GitHub"],
+          "demoImages": [],
+          "level": "Advanced"
+        }
+      ]
+    }
+  ]
+}

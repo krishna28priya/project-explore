@@ -1,0 +1,21 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333EA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield background representing strength and protection -->
+  <path d="M20 3L32 10L32 25C32 30 26 37 20 39C14 37 8 30 8 25L8 10L20 3Z" fill="url(#gradient)" />
+  
+  <!-- Upward arrow representing growth and success -->
+  <path d="M20 10L25 18H22V28H18V18H15L20 10Z" fill="#FBBF24" />
+  
+  <!-- Star symbolizing achievement and excellence -->
+  <path d="M20 22L21.5 25L24.5 25.5L22.5 27.5L23 30.5L20 29L17 30.5L17.5 27.5L15.5 25.5L18.5 25L20 22Z" fill="#FFF" />
+  
+  <!-- Abstract circuit lines representing technology -->
+  <path d="M12 15H15L17 18L20 18" stroke="#FFF" stroke-width="1.5" fill="none" />
+  <path d="M28 15H25L23 18L20 18" stroke="#FFF" stroke-width="1.5" fill="none" />
+</svg>

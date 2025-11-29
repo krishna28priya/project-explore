@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+/* Remove the problematic @apply directive */
+.test-tailwind {
+  background-color: #ef4444; /* red-500 equivalent */
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
